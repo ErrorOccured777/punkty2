@@ -1,0 +1,35 @@
+body {
+  background: #0f0f1a;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 8px;
+}
+
+.name {
+  background: #63d19e;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.score {
+  background: #63d19e;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80px;
+}
+
+button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
